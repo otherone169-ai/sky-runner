@@ -58,8 +58,8 @@ export default function AdInterstitial({ onClose }: AdInterstitialProps) {
             ref={adRef}
             className="adsbygoogle"
             style={{ display: 'block', minHeight: '250px' }}
-            data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX"
-            data-ad-slot="XXXXXXXXXX"
+              data-ad-client="ca-pub-5194295653001385"
+              data-ad-slot="2321686202"
             data-ad-format="rectangle"
             data-full-width-responsive="true"
           />
