@@ -28,8 +28,8 @@ export default function AdBanner({ position }: AdBannerProps) {
           ref={adRef}
           className="adsbygoogle"
           style={{ display: 'block', minHeight: '90px' }}
-             data-ad-client="ca-pub-5194295653001385"
-             data-ad-slot="2321686202"
+          data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX"
+          data-ad-slot="XXXXXXXXXX"
           data-ad-format="horizontal"
           data-full-width-responsive="true"
         />
