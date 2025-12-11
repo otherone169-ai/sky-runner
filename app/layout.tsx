@@ -49,7 +49,6 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5194295653001385"
           strategy="afterInteractive"
           crossOrigin="anonymous"
-          onError={(e) => console.error('AdSense script load error', e)}
         />
       </head>
       <body className={inter.className}>{children}</body>

@@ -7,7 +7,7 @@ interface AdBannerProps {
 }
 
 export default function AdBanner({ position }: AdBannerProps) {
-  const adRef = useRef<HTMLInsElement>(null);
+  const adRef = useRef<HTMLModElement>(null);
 
   useEffect(() => {
     if (adRef.current && typeof window !== 'undefined') {
